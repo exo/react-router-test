@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Redirect } from "react-router-dom";
 
-export default function StaticPage() {
+export default function DynamicPage() {
   let { id } = useParams();
 
   if (id === "16") {
